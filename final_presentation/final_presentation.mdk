@@ -37,6 +37,7 @@ Beamer Theme  : singapore
 * readability
   * test are 1/3 - 1/2 length compared to pure java
 * clean error and traces
+* easy to add to project
 
 
 
@@ -52,6 +53,32 @@ But ...
 2. we use groovy as part of gradle
 3. performance doesn't matter for tests
 ~~
+
+## Spec Structure
+
+``` java
+import spock.lang.*
+class MySpec extends Specification {
+
+  @Collaborator
+  SomeService someService = Mock()
+  
+  @Subject
+  ClassToTest classToTest
+  
+  def "should inject collaborator into subject"() {
+  
+    given:
+      someService.someMethod() >> "return value"
+  
+    when:
+      classToTest.methodUnderTest()
+  
+    then:
+      someService.getField() == "return value"
+  }
+}
+```
 
 
 ## Themes {#themes}
