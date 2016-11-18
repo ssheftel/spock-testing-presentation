@@ -21,7 +21,10 @@ Beamer Theme  : singapore
   * assertions
   * test setup & teardown
 * compatible w/ java ecosystem
-  Click to see the source of this presentation.
+  * junit
+  * spring
+  * intelij & eclipse
+  * sonarqube
 
 
 [madoko]: http://madoko.codeplex.com
