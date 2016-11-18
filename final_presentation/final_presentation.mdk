@@ -1,9 +1,6 @@
 [INCLUDE=presentation]
-Title         : Demo presentation in Madoko
-Sub Title     : In both HTML and PDF
-Author        : Daan Leijen
-Affiliation   : Microsoft Research
-Email         : daan@microsoft.com
+Title         : Spock
+Sub Title     : Java Test Framework
 Reveal Theme  : sky
 Beamer Theme  : singapore
 
