@@ -12,10 +12,10 @@ Beamer Theme  : singapore
 
 # What is Spock
 
-* testing and specification framework for Java and Groovy
+* testing and specification framework for java and groovy
   * unit tests
   * integration tests
-* test written in groovy
+* test are written in groovy
 * provide convenience methods and dsl for:
   * mock/spy/stub
   * assertions
