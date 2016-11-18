@@ -26,30 +26,19 @@ Beamer Theme  : singapore
   * intelij & eclipse
   * sonarqube
 
+## Why it's Cool
 
-[madoko]: http://madoko.codeplex.com
+* first-class TDD idioms
+  * e.g: `given:` `when:` `then:`
+* expressive syntax
+  * literals for list and maps
+  * named parameters in constructor
+  * DSL for wildcard matching, invocation count, assertions, & mocking
+* readability
+  * test are 1/3 - 1/2 length compared to pure java
+* clean error and traces
 
-## Reveal.js
 
-`reveal.js` is a framework for easily creating beautiful presentations using
-HTML. You'll need a browser with support for CSS 3D transforms to see it in
-its full glory. 
-
-And any Madoko features just work. Here is some math:
-
-~ Begin Framed { padding:1ex; margin-top:1ex }
-A famous equation is $e = mc^2$, but this one is 
-famous too:
-
-~ Equation  {#eq-gaussian}
-\int_{-\infty}^\infty e^{-a x^2} d x = \sqrt{\frac{\pi}{a}} 
-~
-~ End Framed
-
-~~ Notes
-Oh hey, these are some notes. They'll be hidden in your presentation, but you
-can see them if you open the speaker notes window (hit 's' on your keyboard).
-~~
 
 ## Code
 
